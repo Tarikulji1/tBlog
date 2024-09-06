@@ -6,7 +6,7 @@
 .navigation {
     margin-top: 25px;
     font-family: var(--font1);
-    height: 74px;
+    /* height: 74px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +18,10 @@
 
 .nav-left span {
     font-size: 35px;
+    padding-top: 10px;
 }
-.nav-left span img{
+
+.nav-left span img {
     width: 94px;
 }
 
@@ -27,12 +29,12 @@
     display: flex;
     align-items: center;
     margin: 0 77px;
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 23px;
 }
 
 .nav-left ul li {
-    list-style-type: none;
+    list-style: none;
     margin: 0 14px;
     font-family: var(--font2);
     transition: all 0.3s ease-in-out;
@@ -51,7 +53,6 @@
 .content {
     display: flex;
     height: 100%;
-    /* background-color: rgb(247, 247, 255); */
     margin-top: 32px;
     padding: 9px;
     position: relative;
@@ -64,7 +65,7 @@
     width: 100%;
     height: inherit;
     opacity: 0.15;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .content-left {
@@ -97,15 +98,17 @@
 
 .year-box {
     position: absolute;
+    right: 0px;
+    top: 100px;
     width: 234px;
     height: 255px;
-    right: 419px;
-    top: 100px;
     font-size: 18px;
 }
+
 .year-box div {
     margin: 12px 0px;
 }
+
 .home-article {
     display: flex;
     margin: 25px;

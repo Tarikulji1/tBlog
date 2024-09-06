@@ -1,8 +1,6 @@
 .post-img {
 height: 404px;
 overflow: hidden;
-padding: 14px;
-margin: 14px;
 }
 
 .post-img img {
@@ -36,7 +34,7 @@ margin: 14px;
     margin: 12px 0;
 }
 .author-info div{
-    padding: 4px 12px;
+    padding: 4px 0;
     font-family: var(--font2);
 }
 .social {
